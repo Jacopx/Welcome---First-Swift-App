@@ -14,6 +14,7 @@
 		BAA2A9E51DA6D87700A01150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA2A9E31DA6D87700A01150 /* LaunchScreen.storyboard */; };
 		BAA2A9F01DA6D87700A01150 /* WelcomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA2A9EF1DA6D87700A01150 /* WelcomeTests.swift */; };
 		BAA2A9FB1DA6D87700A01150 /* WelcomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA2A9FA1DA6D87700A01150 /* WelcomeUITests.swift */; };
+		BAA2AA091DA6E1AA00A01150 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAA2AA081DA6E1AA00A01150 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BAA2A9F61DA6D87700A01150 /* WelcomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelcomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA2A9FA1DA6D87700A01150 /* WelcomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeUITests.swift; sourceTree = "<group>"; };
 		BAA2A9FC1DA6D87700A01150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA2AA081DA6E1AA00A01150 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BAA2A9E11DA6D87700A01150 /* Assets.xcassets */,
 				BAA2A9E31DA6D87700A01150 /* LaunchScreen.storyboard */,
 				BAA2A9E61DA6D87700A01150 /* Info.plist */,
+				BAA2AA081DA6E1AA00A01150 /* Images.xcassets */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA2A9E51DA6D87700A01150 /* LaunchScreen.storyboard in Resources */,
+				BAA2AA091DA6E1AA00A01150 /* Images.xcassets in Resources */,
 				BAA2A9E21DA6D87700A01150 /* Assets.xcassets in Resources */,
 				BAA2A9E01DA6D87700A01150 /* Main.storyboard in Resources */,
 			);
@@ -414,7 +418,6 @@
 		BAA2AA001DA6D87700A01150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B4K9BGH65F;
 				INFOPLIST_FILE = Welcome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -427,7 +430,6 @@
 		BAA2AA011DA6D87700A01150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B4K9BGH65F;
 				INFOPLIST_FILE = Welcome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
